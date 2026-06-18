@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="pista_puzzlebot">
+    <static>true</static>
+    <link name="link_pista">
+      <!-- Posición inicial en el mundo (X Y Z Roll Pitch Yaw) -->
+      <pose>0 0 0 0 0 0</pose>
+
+      <!-- Colisión: Define la superficie física para que el PuzzleBot no traspase el suelo -->
+      <collision name="collision_pista">
+        <geometry>
+          <mesh>
+            <!-- Si usaste .obj, cambia la extensión a .obj abajo -->
+            <uri>package://gemelo_digital_puzzlebot/meshes/Mapa_puzzlebot.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <!-- Coeficientes de fricción para que las llantas del robot tengan agarre -->
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <!-- Visual: Lo que la cámara del PuzzleBot y tú verán en la pantalla -->
+      <visual name="visual_pista">
+        <geometry>
+          <mesh>
+            <!-- Si usaste .obj, cambia la extensión a .obj abajo -->
+            <uri>package://gemelo_digital_puzzlebot/meshes/Mapa_puzzlebot.obj</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <!-- Gazebo usará los materiales y texturas vinculados en tu archivo 3D -->
+      </visual>
+    </link>
+  </model>
+</sdf>
