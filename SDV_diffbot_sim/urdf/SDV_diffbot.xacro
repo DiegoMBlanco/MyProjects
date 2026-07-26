@@ -2,7 +2,7 @@
 <robot name="puzzlebot" xmlns:xacro="http://ros.org/wiki/xacro"> 
   <xacro:property name="package_name" value="SDV_diffbot_sim"/>
   <xacro:property name="PI" value="3.14159265"/>
-  <xacro:property name="wheelSeparation" value="0.209"/> 
+  <xacro:property name="wheelSeparation" value="0.180"/> 
   <xacro:property name="wheelDiameter" value="0.112"/>
   <xacro:property name="wheelThickness" value="0.008"/>
   <xacro:property name="base_elevation" value="0.025"/>
@@ -65,7 +65,7 @@
       </geometry>
     </collision>
     <collision> 
-      <origin xyz="0.1 0 -0.01" rpy="0 0 0" />
+      <origin xyz="0.15 0 -0.025" rpy="0 0 0" />
       <geometry>
         <sphere radius="0.01" />
       </geometry>
@@ -230,7 +230,7 @@
     </collision>
     <inertial>
       <origin xyz="0 0 0" />
-      <mass value="5" />
+      <mass value="1" />
       <inertia ixx="0.0135417" ixy="0.0" ixz="0.0"  iyy="0.0135417" iyz="0.0"  izz="0.025" />
     </inertial>
   </link>
@@ -258,7 +258,7 @@
     </collision>
     <inertial>
       <origin xyz="0 0 0" />
-      <mass value="5" />
+      <mass value="1" />
       <inertia ixx="0.0135417" ixy="0.0" ixz="0.0"  iyy="0.0135417" iyz="0.0"  izz="0.025" />
     </inertial>
   </link>
@@ -287,7 +287,7 @@
     </collision>
 
     <inertial>
-      <mass value="0.01"/>
+      <mass value="0.5"/>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <inertia 
         ixx="0.000000625" ixy="0" ixz="0" 
