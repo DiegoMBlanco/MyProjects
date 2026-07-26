@@ -39,3 +39,8 @@ ros2 launch SDV_diffbot_sim simulation_launcher.launch.py
 * /r1/zed_camera/points <- Zed's camera point clouds (3D)
 * /r1/imu <- Linear accelerations and angular velocities
 * /r1/hokuyo <- Lidar's information (2D)
+
+
+
+https://github.com/user-attachments/assets/697111be-2c9d-44e9-b3df-acdb5b27c956
+
