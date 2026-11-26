@@ -1,0 +1,618 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="test">
+
+  <gravity>0 0 -9.8</gravity>
+    <physics default="0" name="default_physics" type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
+    <!--<include>
+      <uri>model://aws_robomaker_warehouse_RoofB_01</uri>
+      <pose frame="">0.0 0.0 0 0 0 0</pose>
+    </include>-->
+
+    <model name="aws_robomaker_warehouse_ShelfF_01_001">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ShelfF_01</uri>
+        </include>
+        <pose frame="">-5.795143 -0.956635 0 0 0 0</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_WallB_01_001">
+        <include>
+            <uri>model://aws_robomaker_warehouse_WallB_01</uri>
+        </include>
+        <pose frame="">0.0 0.0 0 0 0 0</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_ShelfE_01_001">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
+        </include>
+        <pose frame="">4.73156 0.57943 0 0 0 0</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_ShelfE_01_002">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
+        </include>
+        <pose frame="">4.73156 -4.827049 0 0 0 0</pose>
+	</model>
+        
+    <model name="aws_robomaker_warehouse_ShelfE_01_003">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
+        </include>
+        <pose frame="">4.73156 -8.6651 0 0 0 0</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_ShelfD_01_001">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
+        </include>
+        <pose frame="">4.73156 -1.242668 0 0 0 0</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_ShelfD_01_002">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
+        </include>
+        <pose frame="">4.73156 -3.038551 0 0 0 0</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_ShelfD_01_003">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ShelfD_01</uri>
+        </include>
+        <pose frame="">4.73156 -6.750542 0 0 0 0</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_GroundB_01_001">
+        <include>
+            <uri>model://aws_robomaker_warehouse_GroundB_01</uri>
+        </include>
+        <pose frame="">0.0 0.0 -0.090092 0 0 0</pose>
+	</model>
+
+    <!--<model name="aws_robomaker_warehouse_Lamp_01_005">
+        <include>
+            <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
+        </include>
+        <pose frame="">0 0 -4 0 0 0</pose>
+	</model>-->
+       
+    <model name="aws_robomaker_warehouse_Bucket_01_020">
+        <include>
+            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
+        </include>
+        <pose frame="">0.433449 9.631706 0 0 0 -1.563161</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_Bucket_01_021">
+        <include>
+            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
+        </include>
+        <pose frame="">-1.8321 -6.3752 0 0 0 -1.563161</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_Bucket_01_022">
+        <include>
+            <uri>model://aws_robomaker_warehouse_Bucket_01</uri>
+        </include>
+        <pose frame="">0.433449 8.59 0 0 0 -1.563161</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_ClutteringC_01_027">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
+        </include>
+        <pose frame="">3.324959 3.822449 -0.012064 0 0 1.563871</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_ClutteringC_01_028">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
+        </include>
+        <pose frame="">5.54171 3.816475 -0.015663 0 0 -1.583191</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_ClutteringC_01_029">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
+        </include>
+        <pose frame="">5.384239 6.137154 0 0 0 3.150000</pose>
+	</model>
+
+    <model name="aws_robomaker_warehouse_ClutteringC_01_030">
+        <include>
+            <uri>model://aws_robomaker_warehouse_ClutteringC_01</uri>
+        </include>
+        <pose frame="">3.236 6.137154 0 0 0 3.150000</pose>
+	</model>
+
+    <light name="Warehouse_CeilingLight_003" type="point">
+      <pose frame="">0 0 9 0 0 0</pose>
+      <diffuse>0.5 0.5 0.5 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>80</range>
+        <constant>0.3</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <cast_shadows>1</cast_shadows>
+      <direction>0.1 0.1 -1</direction>
+    </light>
+
+    
+
+        <!-- ===================================================== -->
+    <!-- BANDA TRANSPORTADORA                                  -->
+    <!-- Dirección de movimiento: +Y -> -Y                    -->
+    <!-- ===================================================== -->
+
+    <model name="conveyor_belt">
+
+      <!-- Base de la banda (top en z = 0.61) -->
+      <link name="belt_base">
+        <pose>-1.1 0.75 0.485 0 0 0</pose>
+        <inertial>
+          <mass>20</mass>
+          <inertia>
+            <ixx>13.3</ixx><iyy>1.7</iyy><izz>13.5</izz>
+            <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box><size>1.0 8.9 0.25</size></box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>1.0 8.9 0.25</size></box>
+          </geometry>
+          <material>
+            <ambient>0.08 0.08 0.08 1</ambient>
+            <diffuse>0.12 0.12 0.12 1</diffuse>
+            <specular>0.1 0.1 0.1 1</specular>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Superficie de la banda (z 0.61 a 0.65, sin traslape con la base) -->
+      <link name="belt_surface">
+        <pose>-1.1 0.75 0.63 0 0 0</pose>
+        <inertial>
+          <mass>5</mass>
+          <inertia>
+            <ixx>33.0</ixx><iyy>0.42</iyy><izz>33.4</izz>
+            <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+          </inertia>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+            <box><size>1.0 8.9 0.04</size></box>
+          </geometry>
+          <surface>
+            <friction>
+              <ode><mu>1.0</mu><mu2>1.0</mu2></ode>
+            </friction>
+          </surface>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box><size>1.0 8.9 0.04</size></box>
+          </geometry>
+          <material>
+            <ambient>0.02 0.02 0.02 1</ambient>
+            <diffuse>0.03 0.03 0.03 1</diffuse>
+            <specular>0.05 0.05 0.05 1</specular>
+          </material>
+        </visual>
+      </link>
+
+      <!-- Rodillo superior: solo visual (sin colisión).
+          Eje a lo largo de X (roll en Y), radio reducido para no sobresalir. -->
+      <link name="roller_top">
+        <pose>-1.1 5.1 0.5 0 1.5708 0</pose>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.02</ixx><iyy>0.02</iyy><izz>0.0072</izz>
+            <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+          </inertia>
+        </inertial>
+        <visual name="visual">
+          <geometry>
+            <cylinder><radius>0.12</radius><length>1.0</length></cylinder>
+          </geometry>
+        </visual>
+      </link>
+
+      <!-- Rodillo inferior: solo visual -->
+      <link name="roller_bottom">
+        <pose>-1.1 -3.6 0.5 0 1.5708 0</pose>
+        <inertial>
+          <mass>1</mass>
+          <inertia>
+            <ixx>0.02</ixx><iyy>0.02</iyy><izz>0.0072</izz>
+            <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+          </inertia>
+        </inertial>
+        <visual name="visual">
+          <geometry>
+            <cylinder><radius>0.12</radius><length>1.0</length></cylinder>
+          </geometry>
+        </visual>
+      </link>
+
+      <!-- Soportes laterales (solo visual) -->
+      <link name="left_support">
+        <pose>-1.65 0.75 0.285 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <box><size>0.12 8.9 0.35</size></box>
+          </geometry>
+        </visual>
+      </link>
+
+      <link name="right_support">
+        <pose>-0.55 0.75 0.285 0 0 0</pose>
+        <visual name="visual">
+          <geometry>
+            <box><size>0.12 8.9 0.35</size></box>
+          </geometry>
+        </visual>
+      </link>
+
+      <!-- Joints fijos: todo queda sujeto al mundo -->
+      <joint name="base_world" type="fixed">
+        <parent>world</parent>
+        <child>belt_base</child>
+      </joint>
+      <joint name="surface_base" type="fixed">
+        <parent>belt_base</parent>
+        <child>belt_surface</child>
+      </joint>
+      <joint name="roller_top_base" type="fixed">
+        <parent>belt_base</parent>
+        <child>roller_top</child>
+      </joint>
+      <joint name="roller_bottom_base" type="fixed">
+        <parent>belt_base</parent>
+        <child>roller_bottom</child>
+      </joint>
+      <joint name="left_base" type="fixed">
+        <parent>belt_base</parent>
+        <child>left_support</child>
+      </joint>
+      <joint name="right_base" type="fixed">
+        <parent>belt_base</parent>
+        <child>right_support</child>
+      </joint>
+
+      <!-- Controlador de movimiento de la banda -->
+      <plugin
+          filename="libignition-gazebo-track-controller-system.so"
+          name="ignition::gazebo::systems::TrackController">
+        <link>belt_surface</link>
+        <track_orientation>0 0 -1.5708</track_orientation>
+        <velocity_topic>/conveyor_belt/cmd_vel</velocity_topic>
+        <debug>1</debug>
+      </plugin>
+
+    </model>
+
+    <model name="tubos">
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+
+      <!-- ====================================================== -->
+      <!-- TUBO 1 -->
+      <!-- ====================================================== -->
+      <link name="tubo_1">
+        <pose>-1.1 -3.0 0 0 0 0</pose>
+
+        <collision name="colision">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1.4</length>
+            </cylinder>
+          </geometry>
+        </collision>
+
+        <visual name="cuerpo">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>1.4</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.55 0.58 0.62 1</ambient>
+            <diffuse>0.7 0.73 0.78 1</diffuse>
+            <specular>0.9 0.9 0.95 1</specular>
+          </material>
+        </visual>
+
+        <visual name="banda">
+          <pose>0 0 1.75 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.155</radius>
+              <length>0.1</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.9 0.7 0.05 1</ambient>
+            <diffuse>0.95 0.75 0.1 1</diffuse>
+            <specular>0.3 0.3 0.3 1</specular>
+          </material>
+        </visual>
+
+        <visual name="tapa">
+          <pose>0 0 2.07 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.17</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+
+        <visual name="base">
+          <pose>0 0 0.67 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.19</radius>
+              <length>0.04</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+      </link>
+
+      <!-- ====================================================== -->
+      <!-- TUBOS 2-6 -->
+      <!-- ====================================================== -->
+
+      <link name="tubo_2">
+        <pose>-1.1 -1.5 0 0 0 0</pose>
+        <collision name="colision">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+        </collision>
+        <visual name="cuerpo">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+          <material>
+            <ambient>0.55 0.58 0.62 1</ambient>
+            <diffuse>0.7 0.73 0.78 1</diffuse>
+            <specular>0.9 0.9 0.95 1</specular>
+          </material>
+        </visual>
+        <visual name="banda">
+          <pose>0 0 1.75 0 0 0</pose>
+          <geometry><cylinder><radius>0.155</radius><length>0.1</length></cylinder></geometry>
+          <material>
+            <ambient>0.9 0.7 0.05 1</ambient>
+            <diffuse>0.95 0.75 0.1 1</diffuse>
+            <specular>0.3 0.3 0.3 1</specular>
+          </material>
+        </visual>
+        <visual name="tapa">
+          <pose>0 0 2.07 0 0 0</pose>
+          <geometry><cylinder><radius>0.17</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+        <visual name="base">
+          <pose>0 0 0.67 0 0 0</pose>
+          <geometry><cylinder><radius>0.19</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+      </link>
+
+      <link name="tubo_3">
+        <pose>-1.1 0.0 0 0 0 0</pose>
+        <collision name="colision">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+        </collision>
+        <visual name="cuerpo">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+          <material>
+            <ambient>0.55 0.58 0.62 1</ambient>
+            <diffuse>0.7 0.73 0.78 1</diffuse>
+            <specular>0.9 0.9 0.95 1</specular>
+          </material>
+        </visual>
+        <visual name="banda">
+          <pose>0 0 1.75 0 0 0</pose>
+          <geometry><cylinder><radius>0.155</radius><length>0.1</length></cylinder></geometry>
+          <material>
+            <ambient>0.9 0.7 0.05 1</ambient>
+            <diffuse>0.95 0.75 0.1 1</diffuse>
+            <specular>0.3 0.3 0.3 1</specular>
+          </material>
+        </visual>
+        <visual name="tapa">
+          <pose>0 0 2.07 0 0 0</pose>
+          <geometry><cylinder><radius>0.17</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+        <visual name="base">
+          <pose>0 0 0.67 0 0 0</pose>
+          <geometry><cylinder><radius>0.19</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+      </link>
+
+      <link name="tubo_4">
+        <pose>-1.1 1.5 0 0 0 0</pose>
+        <collision name="colision">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+        </collision>
+        <visual name="cuerpo">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+          <material>
+            <ambient>0.55 0.58 0.62 1</ambient>
+            <diffuse>0.7 0.73 0.78 1</diffuse>
+            <specular>0.9 0.9 0.95 1</specular>
+          </material>
+        </visual>
+        <visual name="banda">
+          <pose>0 0 1.75 0 0 0</pose>
+          <geometry><cylinder><radius>0.155</radius><length>0.1</length></cylinder></geometry>
+          <material>
+            <ambient>0.9 0.7 0.05 1</ambient>
+            <diffuse>0.95 0.75 0.1 1</diffuse>
+            <specular>0.3 0.3 0.3 1</specular>
+          </material>
+        </visual>
+        <visual name="tapa">
+          <pose>0 0 2.07 0 0 0</pose>
+          <geometry><cylinder><radius>0.17</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+        <visual name="base">
+          <pose>0 0 0.67 0 0 0</pose>
+          <geometry><cylinder><radius>0.19</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+      </link>
+
+      <link name="tubo_5">
+        <pose>-1.1 3.0 0 0 0 0</pose>
+        <collision name="colision">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+        </collision>
+        <visual name="cuerpo">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+          <material>
+            <ambient>0.55 0.58 0.62 1</ambient>
+            <diffuse>0.7 0.73 0.78 1</diffuse>
+            <specular>0.9 0.9 0.95 1</specular>
+          </material>
+        </visual>
+        <visual name="banda">
+          <pose>0 0 1.75 0 0 0</pose>
+          <geometry><cylinder><radius>0.155</radius><length>0.1</length></cylinder></geometry>
+          <material>
+            <ambient>0.9 0.7 0.05 1</ambient>
+            <diffuse>0.95 0.75 0.1 1</diffuse>
+            <specular>0.3 0.3 0.3 1</specular>
+          </material>
+        </visual>
+        <visual name="tapa">
+          <pose>0 0 2.07 0 0 0</pose>
+          <geometry><cylinder><radius>0.17</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+        <visual name="base">
+          <pose>0 0 0.67 0 0 0</pose>
+          <geometry><cylinder><radius>0.19</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+      </link>
+
+      <link name="tubo_6">
+        <pose>-1.1 4.5 0 0 0 0</pose>
+        <collision name="colision">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+        </collision>
+        <visual name="cuerpo">
+          <pose>0 0 1.35 0 0 0</pose>
+          <geometry><cylinder><radius>0.15</radius><length>1.4</length></cylinder></geometry>
+          <material>
+            <ambient>0.55 0.58 0.62 1</ambient>
+            <diffuse>0.7 0.73 0.78 1</diffuse>
+            <specular>0.9 0.9 0.95 1</specular>
+          </material>
+        </visual>
+        <visual name="banda">
+          <pose>0 0 1.75 0 0 0</pose>
+          <geometry><cylinder><radius>0.155</radius><length>0.1</length></cylinder></geometry>
+          <material>
+            <ambient>0.9 0.7 0.05 1</ambient>
+            <diffuse>0.95 0.75 0.1 1</diffuse>
+            <specular>0.3 0.3 0.3 1</specular>
+          </material>
+        </visual>
+        <visual name="tapa">
+          <pose>0 0 2.07 0 0 0</pose>
+          <geometry><cylinder><radius>0.17</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+        <visual name="base">
+          <pose>0 0 0.67 0 0 0</pose>
+          <geometry><cylinder><radius>0.19</radius><length>0.04</length></cylinder></geometry>
+          <material>
+            <ambient>0.1 0.1 0.1 1</ambient>
+            <diffuse>0.15 0.15 0.15 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+          </material>
+        </visual>
+      </link>
+
+    </model>
+
+  </world>
+</sdf>

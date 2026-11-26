@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c4834f5e2230de0e155e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mas_orchestra_digital_twin",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mas_orchestra_digital_twin_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mas_orchestra_digital_twin_uninstall-a6b04e40eccfae4f55b1.json",
+					"name" : "mas_orchestra_digital_twin_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_broadcaster-7bcaa4b0d5896c99beca.json",
+					"name" : "tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7a808d76aaab68974f45.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin",
+		"source" : "/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/src/mas_orchestra_digital_twin"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

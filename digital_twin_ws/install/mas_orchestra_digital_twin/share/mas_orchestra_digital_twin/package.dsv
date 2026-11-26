@@ -1,0 +1,8 @@
+source;share/mas_orchestra_digital_twin/hook/cmake_prefix_path.ps1
+source;share/mas_orchestra_digital_twin/hook/cmake_prefix_path.dsv
+source;share/mas_orchestra_digital_twin/hook/cmake_prefix_path.sh
+source;share/mas_orchestra_digital_twin/local_setup.bash
+source;share/mas_orchestra_digital_twin/local_setup.dsv
+source;share/mas_orchestra_digital_twin/local_setup.ps1
+source;share/mas_orchestra_digital_twin/local_setup.sh
+source;share/mas_orchestra_digital_twin/local_setup.zsh

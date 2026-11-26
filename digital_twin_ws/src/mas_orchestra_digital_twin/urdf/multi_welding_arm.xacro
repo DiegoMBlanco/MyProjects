@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<robot name="multi_welding_arm"
+       xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find mas_orchestra_digital_twin)/urdf/welding_arm_macro.xacro"/>
+  <xacro:include filename="$(find mas_orchestra_digital_twin)/urdf/multi_ros2_control.xacro"/>
+
+  <link name="world"/>
+
+  <xacro:welding_arm ns="r1"/>
+  <xacro:welding_arm ns="r2"/>
+  <xacro:welding_arm ns="r3"/>
+  <xacro:welding_arm ns="r4"/>
+  <xacro:welding_arm ns="r5"/>
+  <xacro:welding_arm ns="r6"/>
+
+  <joint name="world_to_r1" type="fixed">
+    <parent link="world"/>
+    <child link="r1/world"/>
+    <origin xyz="-2.2 -3 0.285" rpy="0 0 1.55"/>
+  </joint>
+
+  <joint name="world_to_r2" type="fixed">
+    <parent link="world"/>
+    <child link="r2/world"/>
+    <origin xyz="-2.2 0 0.285" rpy="0 0 1.55"/>
+  </joint>
+
+  <joint name="world_to_r3" type="fixed">
+    <parent link="world"/>
+    <child link="r3/world"/>
+    <origin xyz="-2.2 3 0.285" rpy="0 0 1.55"/>
+  </joint>
+
+  <joint name="world_to_r4" type="fixed">
+    <parent link="world"/>
+    <child link="r4/world"/>
+    <origin xyz="0 -1.5 0.285" rpy="0 0 1.55"/>
+  </joint>
+
+  <joint name="world_to_r5" type="fixed">
+    <parent link="world"/>
+    <child link="r5/world"/>
+    <origin xyz="0 1.5 0.285" rpy="0 0 1.55"/>
+  </joint>
+
+  <joint name="world_to_r6" type="fixed">
+    <parent link="world"/>
+    <child link="r6/world"/>
+    <origin xyz="0 4.5 0.285" rpy="0 0 1.55"/>
+  </joint>
+
+</robot>

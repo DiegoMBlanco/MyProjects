@@ -1,0 +1,220 @@
+[0.013s] Invoking command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/src/mas_orchestra_digital_twin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin
+[0.030s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.190s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.198s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.234s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.237s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.246s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.327s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.482s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.537s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.568s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.587s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[0.591s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.680s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.785s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.785s] -- Configured cppcheck include dirs: 
+[0.785s] -- Configured cppcheck exclude dirs and/or files: 
+[0.787s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.789s] -- Added test 'lint_cmake' to check CMake code style
+[0.791s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.800s] -- Added test 'uncrustify' to check C / C++ code style
+[0.800s] -- Configured uncrustify additional arguments: 
+[0.801s] -- Added test 'xmllint' to check XML markup files
+[0.802s] -- Configuring done
+[0.814s] -- Generating done
+[0.819s] -- Build files have been written to: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin
+[0.829s] Invoked command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/src/mas_orchestra_digital_twin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin
+[0.832s] Invoking command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin -- -j16 -l16
+[0.884s] [35m[1mConsolidate compiler generated dependencies of target tf_broadcaster[0m
+[0.906s] [100%] Built target tf_broadcaster
+[0.919s] Invoked command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin -- -j16 -l16
+[0.931s] Invoking command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin
+[0.941s] -- Install configuration: ""
+[0.942s] -- Execute custom install script
+[0.942s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/lib/mas_orchestra_digital_twin/tf_broadcaster
+[0.943s] -- Symlinking: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//launch/__pycache__/simulation_launcher.launch.cpython-310.pyc
+[0.953s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//launch/simulation_launcher.launch.py
+[0.953s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//launch/single_robot_launcher.launch.py
+[0.953s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//launch/test_launcher.launch.py
+[0.954s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//urdf/gp7.xacro
+[0.954s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//urdf/multi_ros2_control.xacro
+[0.954s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//urdf/multi_welding_arm.xacro
+[0.954s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//urdf/welding_arm.xacro
+[0.954s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//urdf/welding_arm_macro.xacro
+[0.955s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/base_link.stl
+[0.955s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_b_5.stl
+[0.955s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_l_2.stl
+[0.955s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_r_4.stl
+[0.955s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_s_1.stl
+[0.955s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_t_6.stl
+[0.955s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_u_3.stl
+[0.955s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/base_link.STL
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_b_5.STL
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_l_2.STL
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_r_4.STL
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_s_1.STL
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_t_6.STL
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_u_3.STL
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/Base.stl
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/Base_baja_res.stl
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/Base_colision.stl
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/Base_colision_2.stl
+[0.956s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO2.stl
+[0.957s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO2_collision.stl
+[0.957s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO3.stl
+[0.957s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO3_collision.stl
+[0.957s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO4.stl
+[0.957s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO4_collision.stl
+[0.957s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO5.stl
+[0.957s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO5_collision.stl
+[0.958s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO6.stl
+[0.958s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO6_collision.stl
+[0.958s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO7.stl
+[0.958s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/collision/NAUO7_collision.stl
+[0.958s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/Base.stl
+[0.958s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/Base_baja_res.stl
+[0.958s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/Base_colision.stl
+[0.959s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO2.stl
+[0.959s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO2_blender.stl
+[0.959s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO2_visual.stl
+[0.959s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO3.stl
+[0.959s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO3_visual.stl
+[0.959s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO4.stl
+[0.959s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO4_visual.stl
+[0.959s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO5.stl
+[0.960s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO5_visual.stl
+[0.960s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO6.stl
+[0.960s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO6_visual.stl
+[0.960s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO7.stl
+[0.960s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/welding_arm/visual/NAUO7_visual.stl
+[0.960s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//rviz/rviz2_config.rviz
+[0.960s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//worlds/empty.sdf
+[0.960s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//worlds/prueba.world
+[0.960s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//worlds/small_warehouse.world
+[0.961s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//src/tf_broadcaster.cpp
+[0.961s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//config/r1/controllers.yaml
+[0.961s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//config/r1/controllers_multi.yaml
+[0.961s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//config/r1/controllers_welding_arm.yaml
+[0.961s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//config/r2/controllers_welding_arm.yaml
+[0.961s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//config/r3/controllers_welding_arm.yaml
+[0.961s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//config/r4/controllers_welding_arm.yaml
+[0.961s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//config/r5/controllers_welding_arm.yaml
+[0.963s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/.DS_Store
+[0.964s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Bucket_01/.DS_Store
+[0.964s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Bucket_01/materials/.DS_Store
+[0.964s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+[0.964s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.DAE
+[0.964s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.DAE
+[0.964s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Bucket_01/model.config
+[0.965s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Bucket_01/model.sdf
+[0.965s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/.DS_Store
+[0.965s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/materials/.DS_Store
+[0.965s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/.DS_Store
+[0.965s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+[0.965s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+[0.966s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+[0.966s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.DAE
+[0.966s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.DAE
+[0.966s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/model.config
+[0.966s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+[0.966s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+[0.967s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+[0.967s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.DAE
+[0.967s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.DAE
+[0.967s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringC_01/model.config
+[0.967s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+[0.967s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+[0.968s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+[0.968s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.DAE
+[0.968s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.DAE
+[0.968s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringD_01/model.config
+[0.968s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+[0.968s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/materials/.DS_Store
+[0.968s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_01.png
+[0.969s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_02.png
+[0.969s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.png
+[0.969s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_03.psd
+[0.969s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/materials/textures/aws_robomaker_warehouse_DeskC_04.png
+[0.969s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_collision.DAE
+[0.969s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/meshes/aws_robomaker_warehouse_DeskC_01_visual.DAE
+[0.970s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/model.config
+[0.970s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_DeskC_01/model.sdf
+[0.970s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+[0.970s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+[0.970s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.DAE
+[0.971s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.DAE
+[0.971s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_GroundB_01/model.config
+[0.971s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_GroundB_01/model.sdf
+[0.971s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Lamp_01/materials/textures/aws_robomaker_warehouse_Lamp_01.png
+[0.971s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_collision.DAE
+[0.971s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Lamp_01/meshes/aws_robomaker_warehouse_Lamp_01_visual.DAE
+[0.971s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Lamp_01/model.config
+[0.971s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_Lamp_01/model.sdf
+[0.971s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_PalletJackB_01/.DS_Store
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_PalletJackB_01/materials/.DS_Store
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_RoofB_01/materials/textures/aws_robomaker_warehouse_RoofB_01.png
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_collision.DAE
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_RoofB_01/meshes/aws_robomaker_warehouse_RoofB_01_visual.DAE
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_RoofB_01/model.config
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_RoofB_01/model.sdf
+[0.972s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_01.png
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_02.png
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_03.png
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfD_01/materials/textures/aws_robomaker_warehouse_ShelfD_04.png
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_collision.DAE
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfD_01/meshes/aws_robomaker_warehouse_ShelfD_01_visual.DAE
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfD_01/model.config
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfD_01/model.sdf
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/.DS_Store
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/materials/.DS_Store
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_01.png
+[0.973s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_02.png
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_03.png
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/materials/textures/aws_robomaker_warehouse_ShelfE_04.png
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_collision.DAE
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/meshes/aws_robomaker_warehouse_ShelfE_01_visual.DAE
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/model.config
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfE_01/model.sdf
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.DAE
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.DAE
+[0.974s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfF_01/model.config
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.DAE
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.DAE
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_TrashCanC_01/model.config
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.DAE
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.DAE
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_WallB_01/model.config
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//models/aws_robomaker_warehouse_WallB_01/model.sdf
+[0.975s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/ament_index/resource_index/package_run_dependencies/mas_orchestra_digital_twin
+[0.976s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/ament_index/resource_index/parent_prefix_path/mas_orchestra_digital_twin
+[0.976s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/ament_prefix_path.sh
+[0.976s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/ament_prefix_path.dsv
+[0.976s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/path.sh
+[0.976s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/path.dsv
+[0.976s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.bash
+[0.976s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.sh
+[0.976s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.zsh
+[0.976s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.dsv
+[0.977s] -- Symlinking: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/package.dsv
+[0.988s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/ament_index/resource_index/packages/mas_orchestra_digital_twin
+[0.988s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/cmake/mas_orchestra_digital_twinConfig.cmake
+[0.989s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/cmake/mas_orchestra_digital_twinConfig-version.cmake
+[0.989s] -- Up-to-date symlink: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/package.xml
+[0.991s] Invoked command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin

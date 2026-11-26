@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<!-- Source: https://github.com/arsh09/ros_tutorials -->
+<robot name="gp7" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:property name="package_name" value="mas_orchestra_digital_twin"/>
+  <xacro:arg name="ns" default="r1"/>
+  
+  <link name="$(arg ns)/world"/>
+
+  <joint name="$(arg ns)/joint_platform" type="fixed">
+    <parent link="$(arg ns)/world"/>
+    <child link="$(arg ns)/platform" />
+  </joint>
+
+  <link name="$(arg ns)/platform">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="100" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.4 0.4"/>
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size="0.4 0.4 0.4"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="$(arg ns)/joint_w" type="fixed">
+    <parent link="$(arg ns)/platform"/>
+    <child link="$(arg ns)/base_link" />
+  </joint>
+  
+  <link name="$(arg ns)/base_link">
+    <inertial>
+      <origin xyz="-0.0661020995616514 0.000556312270044364 0.0576570103444227" rpy="0 0 0" />
+      <mass value="0.271689442075899" />
+      <inertia
+        ixx="0.000551467943673248"
+        ixy="-3.54874087127204E-06"
+        ixz="-1.62511816944923E-05"
+        iyy="0.000400129321443915"
+        iyz="-2.07321385851125E-06"
+        izz="0.000582594592679587" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/visual/base_link.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.75 0.75 0.752 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/collision/base_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="$(arg ns)/link_s_1">
+    <inertial>
+      <origin xyz="-0.0233610982039615 -0.0409634881495871 -0.00705078625461891" rpy="0 0 0" />
+      <mass value="0.206747811978373" />
+      <inertia
+        ixx="0.000217192211037989"
+        ixy="3.02142658957625E-09"
+        ixz="-2.88241124961472E-05"
+        iyy="0.000264027155022737"
+        iyz="3.1166711843164E-09"
+        izz="0.000175174988217507" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/visual/link_s_1.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.75 0.75 0.75 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/collision/link_s_1.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="$(arg ns)/joint_s_1" type="revolute">
+    <origin xyz="0 0 0.33" rpy="0 0 0" />
+    <parent link="$(arg ns)/base_link" />
+    <child link="$(arg ns)/link_s_1" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-2.96" upper="2.96" effort="30" velocity="6.54" />
+  </joint>
+  <link name="$(arg ns)/link_l_2">
+    <inertial>
+      <origin xyz="-0.0153704712139654 0.0166692289806514 0.205508701542665" rpy="0 0 0" />
+      <mass value="0.562008352548831" />
+      <inertia
+        ixx="0.0105812150782623"
+        ixy="5.4546465153005E-08"
+        ixz="3.7360024414014E-05"
+        iyy="0.0111523147839964"
+        iyz="2.33071657229751E-07"
+        izz="0.00063823581235193" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/visual/link_l_2.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.75 0.75 0.75 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/collision/link_l_2.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="$(arg ns)/joint_l_2" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="$(arg ns)/link_s_1" />
+    <child link="$(arg ns)/link_l_2" />
+    <axis xyz="0 -1 0" />
+    <limit lower="-1.13" upper="2.53" effort="30" velocity="6.54" />
+  </joint>
+  <link name="$(arg ns)/link_u_3">
+    <inertial>
+      <origin xyz="-0.000500936552424655 -0.00941969624887269 0.0218171190109101" rpy="0 0 0" />
+      <mass value="0.916688715390813" />
+      <inertia
+        ixx="0.00313972518885877"
+        ixy="2.67034756524424E-05"
+        ixz="-0.000282817305723292"
+        iyy="0.00272829103505119"
+        iyz="-3.99457173999864E-05"
+        izz="0.00216869170717903" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/visual/link_u_3.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.75 0.75 0.75 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/collision/link_u_3.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="$(arg ns)/joint_u_3" type="revolute">
+    <origin xyz="0 0 0.445" rpy="0 0 0" />
+    <parent link="$(arg ns)/link_l_2" />
+    <child link="$(arg ns)/link_u_3" />
+    <axis xyz="0 -1 0" />
+    <limit lower="-1.22" upper="3.31" effort="30" velocity="6.54" />
+  </joint>
+  <link name="$(arg ns)/link_r_4">
+    <inertial>
+      <origin xyz="-0.144528762363287 -0.000457848370011256 0.00100877854966697" rpy="0 0 0" />
+      <mass value="0.475362712918695" />
+      <inertia
+        ixx="0.00070363811082682"
+        ixy="-2.1462919267349E-06"
+        ixz="2.28110348065367E-06"
+        iyy="0.00128909280889087"
+        iyz="5.50773922973421E-06"
+        izz="0.00120913789427328" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/visual/link_r_4.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.75 0.75 0.75 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/collision/link_r_4.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="$(arg ns)/joint_r_4" type="revolute">
+    <origin xyz="0.32065 0 0.04" rpy="0 0 0" />
+    <parent link="$(arg ns)/link_u_3" />
+    <child link="$(arg ns)/link_r_4" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-3.31" upper="3.31" effort="17" velocity="9.59" />
+  </joint>
+  <link name="$(arg ns)/link_b_5">
+    <inertial>
+      <origin xyz="0.0215355985784859 -0.000865097565469207 0.000294489292992695" rpy="0 0 0" />
+      <mass value="0.160644623215161" />
+      <inertia
+        ixx="0.000125384637745521"
+        ixy="-8.52784920985105E-07"
+        ixz="-1.78578173872123E-06"
+        iyy="0.000141416384834468"
+        iyz="1.57237201658655E-07"
+        izz="0.00010333533136263" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/visual/link_b_5.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.75 0.75 0.75 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/collision/link_b_5.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="$(arg ns)/joint_b_5" type="revolute">
+    <origin xyz="0.11935 0 0" rpy="0 0 0" />
+    <parent link="$(arg ns)/link_r_4" />
+    <child link="$(arg ns)/link_b_5" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-2.35" upper="2.35" effort="17" velocity="9.59" />
+  </joint>
+  <link name="$(arg ns)/link_t_6">
+    <inertial>
+      <origin xyz="0.010342612733208 0.000104247977295127 -1.55781338939676E-08" rpy="0 0 0" />
+      <mass value="0.0171282195454734" />
+      <inertia
+        ixx="6.71678663114005E-06"
+        ixy="-7.75547686204302E-09"
+        ixz="-6.7223545098088E-13"
+        iyy="3.48368238315858E-06"
+        iyz="2.65114482902148E-11"
+        izz="3.55123698727653E-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/visual/link_t_6.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.75 0.75 0.75 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://${package_name}/meshes/gp7/collision/link_t_6.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="$(arg ns)/joint_t_6" type="revolute">
+    <origin xyz="0.065 0 0" rpy="0 0 0" />
+    <parent link="$(arg ns)/link_b_5" />
+    <child link="$(arg ns)/link_t_6" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-6.1" upper="6.1" effort="10" velocity="17.45" />
+  </joint>
+
+  <ros2_control name="IgnitionSystem" type="system">
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+    <joint name="$(arg ns)/joint_s_1">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="$(arg ns)/joint_l_2">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="$(arg ns)/joint_u_3">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="$(arg ns)/joint_r_4">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="$(arg ns)/joint_b_5">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="$(arg ns)/joint_t_6">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <gazebo>
+    <plugin filename="libgz_ros2_control-system.so"
+            name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <parameters>$(find mas_orchestra_digital_twin)/config/$(arg ns)/controllers.yaml</parameters>
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+      <ros>
+        <namespace>$(arg ns)</namespace>
+        </ros>
+    </plugin>
+
+    <plugin
+      filename="gz-sim-joint-state-publisher-system"
+      name="gz::sim::systems::JointStatePublisher">
+    </plugin>
+
+  </gazebo>
+
+  
+
+</robot>

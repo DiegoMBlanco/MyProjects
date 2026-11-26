@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <ros2_control name="IgnitionSystem" type="system">
+
+    <hardware>
+      <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+    </hardware>
+
+    <!-- R1 -->
+    <joint name="r1/joint_NAUO2">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r1/joint_NAUO4">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r1/joint_NAUO3">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r1/joint_NAUO5">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r1/joint_NAUO6">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r1/joint_NAUO7">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- R2 -->
+    <joint name="r2/joint_NAUO2">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r2/joint_NAUO4">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r2/joint_NAUO3">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r2/joint_NAUO5">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r2/joint_NAUO6">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r2/joint_NAUO7">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+		<!-- R3 -->
+		<joint name="r3/joint_NAUO2">
+			<command_interface name="position"/>
+			<state_interface name="position"/>
+			<state_interface name="velocity"/>
+		</joint>
+
+		<joint name="r3/joint_NAUO4">
+			<command_interface name="position"/>
+			<state_interface name="position"/>
+			<state_interface name="velocity"/>
+		</joint>
+
+		<joint name="r3/joint_NAUO3">
+			<command_interface name="position"/>
+			<state_interface name="position"/>
+			<state_interface name="velocity"/>
+		</joint>
+
+		<joint name="r3/joint_NAUO5">
+			<command_interface name="position"/>
+			<state_interface name="position"/>
+			<state_interface name="velocity"/>
+		</joint>
+
+		<joint name="r3/joint_NAUO6">
+			<command_interface name="position"/>
+			<state_interface name="position"/>
+			<state_interface name="velocity"/>
+		</joint>
+
+		<joint name="r3/joint_NAUO7">
+			<command_interface name="position"/>
+			<state_interface name="position"/>
+			<state_interface name="velocity"/>
+		</joint>
+
+		<!-- R4 -->
+    <joint name="r4/joint_NAUO2">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r4/joint_NAUO4">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r4/joint_NAUO3">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r4/joint_NAUO5">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r4/joint_NAUO6">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r4/joint_NAUO7">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+		<!-- R5 -->
+    <joint name="r5/joint_NAUO2">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r5/joint_NAUO4">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r5/joint_NAUO3">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r5/joint_NAUO5">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r5/joint_NAUO6">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r5/joint_NAUO7">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- R6 -->
+    <joint name="r6/joint_NAUO2">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r6/joint_NAUO4">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r6/joint_NAUO3">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r6/joint_NAUO5">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r6/joint_NAUO6">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="r6/joint_NAUO7">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+  </ros2_control>
+
+	<gazebo>
+    <plugin
+      filename="gz_ros2_control-system"
+      name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+
+			<parameters>$(find mas_orchestra_digital_twin)/config/r1/controllers_multi.yaml</parameters>
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+
+      <ros>
+        <namespace>/</namespace>
+      </ros>
+
+    </plugin>
+  </gazebo>
+
+</robot>

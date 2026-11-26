@@ -1,0 +1,54 @@
+[0.019s] Invoking command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin -- -j16 -l16
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o[0m
+[8.936s] [100%] [32m[1mLinking CXX executable tf_broadcaster[0m
+[9.418s] [100%] Built target tf_broadcaster
+[9.434s] Invoked command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin -- -j16 -l16
+[9.449s] Invoking command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin
+[9.459s] -- Install configuration: ""
+[9.460s] -- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/lib/mas_orchestra_digital_twin/tf_broadcaster
+[9.464s] -- Set runtime path of "/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/lib/mas_orchestra_digital_twin/tf_broadcaster" to ""
+[9.464s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//launch
+[9.464s] -- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//launch/simulation_launcher.launch.py
+[9.465s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//urdf
+[9.465s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//urdf/welding_arm.xacro
+[9.465s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes
+[9.465s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7
+[9.465s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision
+[9.465s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_b_5.stl
+[9.465s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_r_4.stl
+[9.466s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_u_3.stl
+[9.466s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/base_link.stl
+[9.466s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_t_6.stl
+[9.466s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_l_2.stl
+[9.466s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_s_1.stl
+[9.466s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual
+[9.467s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_u_3.STL
+[9.467s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_b_5.STL
+[9.467s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/base_link.STL
+[9.467s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_r_4.STL
+[9.467s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_s_1.STL
+[9.467s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_l_2.STL
+[9.467s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_t_6.STL
+[9.468s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//rviz
+[9.468s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//rviz/rviz2_config.rviz
+[9.468s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//worlds
+[9.468s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//worlds/empty.sdf
+[9.468s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//src
+[9.468s] -- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//src/tf_broadcaster.cpp
+[9.468s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//scripts
+[9.468s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/ament_index/resource_index/package_run_dependencies/mas_orchestra_digital_twin
+[9.468s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/ament_index/resource_index/parent_prefix_path/mas_orchestra_digital_twin
+[9.468s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/ament_prefix_path.sh
+[9.469s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/ament_prefix_path.dsv
+[9.469s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/path.sh
+[9.469s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/path.dsv
+[9.469s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.bash
+[9.469s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.sh
+[9.469s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.zsh
+[9.469s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.dsv
+[9.470s] -- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/package.dsv
+[9.470s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/ament_index/resource_index/packages/mas_orchestra_digital_twin
+[9.470s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/cmake/mas_orchestra_digital_twinConfig.cmake
+[9.470s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/cmake/mas_orchestra_digital_twinConfig-version.cmake
+[9.470s] -- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/package.xml
+[9.470s] Invoked command in '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin

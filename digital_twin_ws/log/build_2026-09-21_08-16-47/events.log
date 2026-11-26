@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (mas_orchestra_digital_twin) JobQueued: {'identifier': 'mas_orchestra_digital_twin', 'dependencies': OrderedDict()}
+[0.000431] (mas_orchestra_digital_twin) JobStarted: {'identifier': 'mas_orchestra_digital_twin'}
+[0.011460] (mas_orchestra_digital_twin) JobProgress: {'identifier': 'mas_orchestra_digital_twin', 'progress': 'cmake'}
+[0.012321] (mas_orchestra_digital_twin) JobProgress: {'identifier': 'mas_orchestra_digital_twin', 'progress': 'build'}
+[0.013494] (mas_orchestra_digital_twin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin', '--', '-j16', '-l16'], 'cwd': '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dieguin'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dieguin/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/dieguin'), ('OLDPWD', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1363'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install:/home/dieguin/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dieguin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dieguin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/dieguin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dieguin:@/tmp/.ICE-unix/1334,unix/dieguin:/tmp/.ICE-unix/1334'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/168e1935_5704_462b_b876_44030f17dc3d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8NOZV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin:/home/dieguin/turtlebot3_ws/install/turtlebot3:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_simulations:/home/dieguin/turtlebot3_ws/install/turtlebot3_bringup:/home/dieguin/turtlebot3_ws/install/turtlebot3_node:/home/dieguin/turtlebot3_ws/install/turtlebot3_navigation2:/home/dieguin/turtlebot3_ws/install/turtlebot3_fake_node:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/home/dieguin/turtlebot3_ws/install/turtlebot3_msgs:/home/dieguin/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/dieguin/turtlebot3_ws/install/turtlebot3_gazebo:/home/dieguin/turtlebot3_ws/install/turtlebot3_description:/home/dieguin/turtlebot3_ws/install/turtlebot3_cartographer:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_examples:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/dieguin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dieguin/turtlebot3_ws/build/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/dieguin/turtlebot3_ws/build/turtlebot3_example:/home/dieguin/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/dieguin/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin:/home/dieguin/turtlebot3_ws/install/turtlebot3:/home/dieguin/turtlebot3_ws/install/turtlebot3_simulations:/home/dieguin/turtlebot3_ws/install/turtlebot3_bringup:/home/dieguin/turtlebot3_ws/install/turtlebot3_node:/home/dieguin/turtlebot3_ws/install/turtlebot3_navigation2:/home/dieguin/turtlebot3_ws/install/turtlebot3_fake_node:/home/dieguin/turtlebot3_ws/install/turtlebot3_msgs:/home/dieguin/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/dieguin/turtlebot3_ws/install/turtlebot3_gazebo:/home/dieguin/turtlebot3_ws/install/turtlebot3_description:/home/dieguin/turtlebot3_ws/install/turtlebot3_cartographer:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_examples:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.050527] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099551] (-) TimerEvent: {}
+[0.200096] (-) TimerEvent: {}
+[0.257454] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300356] (-) TimerEvent: {}
+[0.308074] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.312192] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.323368] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.341860] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.361054] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400485] (-) TimerEvent: {}
+[0.405690] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.408305] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500686] (-) TimerEvent: {}
+[0.582584] (mas_orchestra_digital_twin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600886] (-) TimerEvent: {}
+[0.655889] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.697398] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.701065] (-) TimerEvent: {}
+[0.721749] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.727188] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.801421] (-) TimerEvent: {}
+[0.841736] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901523] (-) TimerEvent: {}
+[0.928382] (mas_orchestra_digital_twin) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.928639] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.928760] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.928990] (mas_orchestra_digital_twin) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.929628] (mas_orchestra_digital_twin) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.930132] (mas_orchestra_digital_twin) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.931716] (mas_orchestra_digital_twin) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.931886] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.932154] (mas_orchestra_digital_twin) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.933073] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.948078] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Generating done\n'}
+[0.954340] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Build files have been written to: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin\n'}
+[0.991153] (mas_orchestra_digital_twin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tf_broadcaster\x1b[0m\n'}
+[1.001633] (-) TimerEvent: {}
+[1.015737] (mas_orchestra_digital_twin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o\x1b[0m\n'}
+[1.101906] (-) TimerEvent: {}
+[1.202412] (-) TimerEvent: {}
+[1.303019] (-) TimerEvent: {}
+[1.403664] (-) TimerEvent: {}
+[1.504221] (-) TimerEvent: {}
+[1.604743] (-) TimerEvent: {}
+[1.705091] (-) TimerEvent: {}
+[1.805447] (-) TimerEvent: {}
+[1.905835] (-) TimerEvent: {}
+[2.006235] (-) TimerEvent: {}
+[2.106562] (-) TimerEvent: {}
+[2.206929] (-) TimerEvent: {}
+[2.307442] (-) TimerEvent: {}
+[2.407842] (-) TimerEvent: {}
+[2.508330] (-) TimerEvent: {}
+[2.608794] (-) TimerEvent: {}
+[2.709280] (-) TimerEvent: {}
+[2.809744] (-) TimerEvent: {}
+[2.910163] (-) TimerEvent: {}
+[3.010656] (-) TimerEvent: {}
+[3.111125] (-) TimerEvent: {}
+[3.211662] (-) TimerEvent: {}
+[3.312113] (-) TimerEvent: {}
+[3.412624] (-) TimerEvent: {}
+[3.513121] (-) TimerEvent: {}
+[3.613470] (-) TimerEvent: {}
+[3.713840] (-) TimerEvent: {}
+[3.814348] (-) TimerEvent: {}
+[3.914794] (-) TimerEvent: {}
+[4.015202] (-) TimerEvent: {}
+[4.115820] (-) TimerEvent: {}
+[4.216268] (-) TimerEvent: {}
+[4.316618] (-) TimerEvent: {}
+[4.417056] (-) TimerEvent: {}
+[4.517431] (-) TimerEvent: {}
+[4.617795] (-) TimerEvent: {}
+[4.718206] (-) TimerEvent: {}
+[4.818642] (-) TimerEvent: {}
+[4.919054] (-) TimerEvent: {}
+[5.019506] (-) TimerEvent: {}
+[5.119930] (-) TimerEvent: {}
+[5.220377] (-) TimerEvent: {}
+[5.320799] (-) TimerEvent: {}
+[5.421264] (-) TimerEvent: {}
+[5.521678] (-) TimerEvent: {}
+[5.622074] (-) TimerEvent: {}
+[5.722508] (-) TimerEvent: {}
+[5.822930] (-) TimerEvent: {}
+[5.923371] (-) TimerEvent: {}
+[6.023813] (-) TimerEvent: {}
+[6.124287] (-) TimerEvent: {}
+[6.224624] (-) TimerEvent: {}
+[6.324963] (-) TimerEvent: {}
+[6.425388] (-) TimerEvent: {}
+[6.525779] (-) TimerEvent: {}
+[6.626177] (-) TimerEvent: {}
+[6.726495] (-) TimerEvent: {}
+[6.826858] (-) TimerEvent: {}
+[6.927329] (-) TimerEvent: {}
+[7.027719] (-) TimerEvent: {}
+[7.128140] (-) TimerEvent: {}
+[7.228591] (-) TimerEvent: {}
+[7.329026] (-) TimerEvent: {}
+[7.429422] (-) TimerEvent: {}
+[7.529785] (-) TimerEvent: {}
+[7.630148] (-) TimerEvent: {}
+[7.730444] (-) TimerEvent: {}
+[7.830757] (-) TimerEvent: {}
+[7.931133] (-) TimerEvent: {}
+[8.031566] (-) TimerEvent: {}
+[8.131875] (-) TimerEvent: {}
+[8.232260] (-) TimerEvent: {}
+[8.332570] (-) TimerEvent: {}
+[8.432852] (-) TimerEvent: {}
+[8.533280] (-) TimerEvent: {}
+[8.633598] (-) TimerEvent: {}
+[8.733937] (-) TimerEvent: {}
+[8.834332] (-) TimerEvent: {}
+[8.934631] (-) TimerEvent: {}
+[9.035039] (-) TimerEvent: {}
+[9.135464] (-) TimerEvent: {}
+[9.235852] (-) TimerEvent: {}
+[9.336258] (-) TimerEvent: {}
+[9.436689] (-) TimerEvent: {}
+[9.537091] (-) TimerEvent: {}
+[9.637519] (-) TimerEvent: {}
+[9.737861] (-) TimerEvent: {}
+[9.838278] (-) TimerEvent: {}
+[9.938695] (-) TimerEvent: {}
+[10.039110] (-) TimerEvent: {}
+[10.139543] (-) TimerEvent: {}
+[10.239950] (-) TimerEvent: {}
+[10.340374] (-) TimerEvent: {}
+[10.440759] (-) TimerEvent: {}
+[10.541167] (-) TimerEvent: {}
+[10.641540] (-) TimerEvent: {}
+[10.742144] (-) TimerEvent: {}
+[10.842571] (-) TimerEvent: {}
+[10.942970] (-) TimerEvent: {}
+[11.043379] (-) TimerEvent: {}
+[11.073774] (mas_orchestra_digital_twin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tf_broadcaster\x1b[0m\n'}
+[11.143596] (-) TimerEvent: {}
+[11.244012] (-) TimerEvent: {}
+[11.344505] (-) TimerEvent: {}
+[11.444941] (-) TimerEvent: {}
+[11.545443] (-) TimerEvent: {}
+[11.645911] (-) TimerEvent: {}
+[11.710913] (mas_orchestra_digital_twin) StdoutLine: {'line': b'[100%] Built target tf_broadcaster\n'}
+[11.726691] (mas_orchestra_digital_twin) CommandEnded: {'returncode': 0}
+[11.728227] (mas_orchestra_digital_twin) JobProgress: {'identifier': 'mas_orchestra_digital_twin', 'progress': 'install'}
+[11.742905] (mas_orchestra_digital_twin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin'], 'cwd': '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dieguin'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dieguin/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/dieguin'), ('OLDPWD', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1363'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install:/home/dieguin/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dieguin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dieguin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/dieguin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dieguin:@/tmp/.ICE-unix/1334,unix/dieguin:/tmp/.ICE-unix/1334'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/168e1935_5704_462b_b876_44030f17dc3d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8NOZV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin:/home/dieguin/turtlebot3_ws/install/turtlebot3:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_simulations:/home/dieguin/turtlebot3_ws/install/turtlebot3_bringup:/home/dieguin/turtlebot3_ws/install/turtlebot3_node:/home/dieguin/turtlebot3_ws/install/turtlebot3_navigation2:/home/dieguin/turtlebot3_ws/install/turtlebot3_fake_node:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/home/dieguin/turtlebot3_ws/install/turtlebot3_msgs:/home/dieguin/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/dieguin/turtlebot3_ws/install/turtlebot3_gazebo:/home/dieguin/turtlebot3_ws/install/turtlebot3_description:/home/dieguin/turtlebot3_ws/install/turtlebot3_cartographer:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_examples:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/dieguin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dieguin/turtlebot3_ws/build/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/dieguin/turtlebot3_ws/build/turtlebot3_example:/home/dieguin/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/dieguin/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin:/home/dieguin/turtlebot3_ws/install/turtlebot3:/home/dieguin/turtlebot3_ws/install/turtlebot3_simulations:/home/dieguin/turtlebot3_ws/install/turtlebot3_bringup:/home/dieguin/turtlebot3_ws/install/turtlebot3_node:/home/dieguin/turtlebot3_ws/install/turtlebot3_navigation2:/home/dieguin/turtlebot3_ws/install/turtlebot3_fake_node:/home/dieguin/turtlebot3_ws/install/turtlebot3_msgs:/home/dieguin/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/dieguin/turtlebot3_ws/install/turtlebot3_gazebo:/home/dieguin/turtlebot3_ws/install/turtlebot3_description:/home/dieguin/turtlebot3_ws/install/turtlebot3_cartographer:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_examples:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/dieguin/turtlebot3_ws/install/dynamixel_sdk:/home/dieguin/turtlebot3_ws/install/turtlebot3_teleop:/home/dieguin/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[11.746094] (-) TimerEvent: {}
+[11.755195] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.755407] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/lib/mas_orchestra_digital_twin/tf_broadcaster\n'}
+[11.760924] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Set runtime path of "/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/lib/mas_orchestra_digital_twin/tf_broadcaster" to ""\n'}
+[11.761315] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//launch\n'}
+[11.761720] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//launch/simulation_launcher.launch.py\n'}
+[11.761921] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//urdf\n'}
+[11.762026] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//urdf/welding_arm.xacro\n'}
+[11.762109] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes\n'}
+[11.762183] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7\n'}
+[11.762274] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision\n'}
+[11.762353] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_b_5.stl\n'}
+[11.762426] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_r_4.stl\n'}
+[11.762497] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_u_3.stl\n'}
+[11.762565] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/base_link.stl\n'}
+[11.762760] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_t_6.stl\n'}
+[11.762843] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_l_2.stl\n'}
+[11.762915] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/collision/link_s_1.stl\n'}
+[11.762987] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual\n'}
+[11.763058] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_u_3.STL\n'}
+[11.763128] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_b_5.STL\n'}
+[11.763199] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/base_link.STL\n'}
+[11.763283] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_r_4.STL\n'}
+[11.763407] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_s_1.STL\n'}
+[11.763474] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_l_2.STL\n'}
+[11.763541] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//meshes/gp7/visual/link_t_6.STL\n'}
+[11.763606] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//rviz\n'}
+[11.763671] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//rviz/rviz2_config.rviz\n'}
+[11.763735] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//worlds\n'}
+[11.763799] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//worlds/empty.sdf\n'}
+[11.763861] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//src\n'}
+[11.763934] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//src/tf_broadcaster.cpp\n'}
+[11.764001] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin//scripts\n'}
+[11.764065] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/ament_index/resource_index/package_run_dependencies/mas_orchestra_digital_twin\n'}
+[11.764132] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/ament_index/resource_index/parent_prefix_path/mas_orchestra_digital_twin\n'}
+[11.764198] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/ament_prefix_path.sh\n'}
+[11.764314] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/ament_prefix_path.dsv\n'}
+[11.764436] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/path.sh\n'}
+[11.764547] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/environment/path.dsv\n'}
+[11.764676] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.bash\n'}
+[11.764746] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.sh\n'}
+[11.764815] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.zsh\n'}
+[11.765173] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/local_setup.dsv\n'}
+[11.765253] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Installing: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/package.dsv\n'}
+[11.765330] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/ament_index/resource_index/packages/mas_orchestra_digital_twin\n'}
+[11.765400] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/cmake/mas_orchestra_digital_twinConfig.cmake\n'}
+[11.765471] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/cmake/mas_orchestra_digital_twinConfig-version.cmake\n'}
+[11.765539] (mas_orchestra_digital_twin) StdoutLine: {'line': b'-- Up-to-date: /home/dieguin/MAS-ORCHESTRA/digital_twin_ws/install/mas_orchestra_digital_twin/share/mas_orchestra_digital_twin/package.xml\n'}
+[11.766279] (mas_orchestra_digital_twin) CommandEnded: {'returncode': 0}
+[11.791929] (mas_orchestra_digital_twin) JobEnded: {'identifier': 'mas_orchestra_digital_twin', 'rc': 0}
+[11.792554] (-) EventReactorShutdown: {}

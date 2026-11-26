@@ -1,0 +1,27 @@
+/**/controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+/**/arm_controller:
+  ros__parameters:
+    joints:
+      - r5/joint_NAUO2
+      - r5/joint_NAUO4
+      - r5/joint_NAUO3
+      - r5/joint_NAUO5
+      - r5/joint_NAUO6
+      - r5/joint_NAUO7
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      - velocity

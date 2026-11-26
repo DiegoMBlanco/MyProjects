@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!-- Source: https://github.com/arsh09/ros_tutorials -->
+<robot name="welding_arm" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:property name="package_name" value="mas_orchestra_digital_twin"/>
+  <xacro:property name="PI" value="3.14159265"/>
+  <xacro:macro name="welding_arm" params="ns">
+  
+    <link name="${ns}/world"/>
+
+    <joint name="${ns}/joint_platform" type="fixed">
+        <parent link="${ns}/world"/>
+        <child link="${ns}/platform" />
+    </joint>
+
+    <link name="${ns}/platform">
+        <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <mass value="100" />
+        <inertia
+            ixx="0"
+            ixy="0"
+            ixz="0"
+            iyy="0"
+            iyz="0"
+            izz="0" />
+        </inertial>
+        <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <box size="0.5 0.5 0.5"/>
+        </geometry>
+        <material name="">
+            <color rgba="1 1 1 1" />
+        </material>
+        </visual>
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <box size="0.5 0.5 0.5"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <joint name="${ns}/joint_base" type="fixed">
+        <parent link="${ns}/platform"/>
+        <child link="${ns}/base_link" />
+        <origin xyz="0 0 0.25" rpy = "${PI/2} 0 0"/>
+        <axis xyz="0 0 0"/>
+    </joint>
+    
+    <link name="${ns}/base_link">
+        <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <mass value="0.271689442075899" />
+        <inertia
+            ixx="0.000551467943673248"
+            ixy="-3.54874087127204E-06"
+            ixz="-1.62511816944923E-05"
+            iyy="0.000400129321443915"
+            iyz="-2.07321385851125E-06"
+            izz="0.000582594592679587" />
+        </inertial>
+        <visual>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/visual/Base_baja_res.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="">
+            <color rgba="0.06 0.0 0.0 1" />
+        </material>
+        </visual>
+        <collision>
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/collision/Base_baja_res.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <joint name="${ns}/joint_NAUO2" type="revolute">
+        <parent link="${ns}/base_link"/>
+        <child link="${ns}/NAUO2_link" />
+        <origin xyz="0 0.235 0" rpy = "${-PI/2} 0 0"/>
+        <axis xyz="0 0 -1" />
+        <limit lower="-2.96" upper="2.96" effort="30" velocity="6.54" />
+    </joint>
+    
+    <link name="${ns}/NAUO2_link">
+        <inertial>
+        <origin xyz="0 0 -0.235" rpy="0 0 0" />
+        <mass value="0.271689442075899" />
+        <inertia
+            ixx="0.000551467943673248"
+            ixy="-3.54874087127204E-06"
+            ixz="-1.62511816944923E-05"
+            iyy="0.000400129321443915"
+            iyz="-2.07321385851125E-06"
+            izz="0.000582594592679587" />
+        </inertial>
+        <visual>
+        <origin xyz="0 0 -0.235" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/visual/NAUO2_visual.stl" scale="0.001 0.001 0.001"/>
+            <!--<box size="0.2, 0.2, 0.005"/>-->
+        </geometry>
+        <material name="">
+            <color rgba="0.3 0.0 0.0 1" />
+            <!--<color rgba="1 1 1 1" />-->
+        </material>
+        </visual>
+        <collision>
+        <origin xyz="0 0 -0.235" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/collision/NAUO2_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        </collision>
+    </link>
+    
+    <joint name="${ns}/joint_NAUO4" type="revolute">
+        <parent link="${ns}/NAUO2_link"/>
+        <child link="${ns}/NAUO4_link" />
+        <origin xyz="0.185 -0.12 0.205" rpy = "0 0 0"/>
+        <axis xyz="0 -1 0" />
+        <limit lower="-1.13" upper="2.53" effort="30" velocity="6.54" />
+    </joint>
+    
+    <link name="${ns}/NAUO4_link">
+        <inertial>
+        <origin xyz="-0.185 0.12 -0.435" rpy="0 0 0" />
+        <mass value="0.271689442075899" />
+        <inertia
+            ixx="0.000551467943673248"
+            ixy="-3.54874087127204E-06"
+            ixz="-1.62511816944923E-05"
+            iyy="0.000400129321443915"
+            iyz="-2.07321385851125E-06"
+            izz="0.000582594592679587" />
+        </inertial>
+        <visual>
+        <origin xyz="-0.185 0.12 -0.435" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/visual/NAUO4_visual.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="">
+            <color rgba="1.0 0.0 0.0 1" />
+        </material>
+        </visual>
+        <collision>
+        <origin xyz="-0.185 0.12 -0.435" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/collision/NAUO4_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <joint name="${ns}/joint_NAUO3" type="revolute">
+        <parent link="${ns}/NAUO4_link"/>
+        <child link="${ns}/NAUO3_link" />
+        <origin xyz="0 0.031 0.6" rpy = "0 0 0"/>
+        <axis xyz="0 -1 0" />
+        <limit lower="-1.22" upper="3.31" effort="30" velocity="6.54" />
+    </joint>
+    
+    <link name="${ns}/NAUO3_link">
+        <inertial>
+        <origin xyz="-0.185 0.089 -1.035" rpy="0 0 0" />
+        <mass value="0.271689442075899" />
+        <inertia
+            ixx="0.000551467943673248"
+            ixy="-3.54874087127204E-06"
+            ixz="-1.62511816944923E-05"
+            iyy="0.000400129321443915"
+            iyz="-2.07321385851125E-06"
+            izz="0.000582594592679587" />
+        </inertial>
+        <visual>
+        <origin xyz="-0.185 0.089 -1.035" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/visual/NAUO3_visual.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="">
+            <color rgba="0.3 0.0 0.0 1" />
+            
+        </material>
+        </visual>
+        <collision>
+        <origin xyz="-0.185 0.089 -1.035" rpy="${PI/2} 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/collision/NAUO3_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <joint name="${ns}/joint_NAUO5" type="revolute">
+        <parent link="${ns}/NAUO3_link"/>
+        <child link="${ns}/NAUO5_link" />
+        <origin xyz="0.29 0.09 0.2" rpy = "${PI/2} 0 0"/>
+        <axis xyz="-1 0 0" />
+        <limit lower="-3.31" upper="3.31" effort="17" velocity="9.59" />
+    </joint>
+    
+    <link name="${ns}/NAUO5_link">
+        <inertial>
+        <origin xyz="-0.475 -1.235 -0.001" rpy="0 0 0" /> <!-- -0.475 -0.001 -1.235 -->
+        <mass value="0.271689442075899" />
+        <inertia
+            ixx="0.000551467943673248"
+            ixy="-3.54874087127204E-06"
+            ixz="-1.62511816944923E-05"
+            iyy="0.000400129321443915"
+            iyz="-2.07321385851125E-06"
+            izz="0.000582594592679587" />
+        </inertial>
+        <visual>
+        <origin xyz="-0.475 -1.235 -0.001" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/visual/NAUO5_visual.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="">
+            <color rgba="1.0 0.0 0.0 1" />
+        </material>
+        </visual>
+        <collision>
+        <origin xyz="-0.475 -1.235 -0.001" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/collision/NAUO5_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <joint name="${ns}/joint_NAUO6" type="revolute">
+        <parent link="${ns}/NAUO5_link"/>
+        <child link="${ns}/NAUO6_link" />
+        <origin xyz="0.36 0 0" rpy = "${-PI/2} 0 0"/>
+        <axis xyz="0 -1 0" />
+        <limit lower="-2.35" upper="2.35" effort="17" velocity="9.59" />
+    </joint>
+    
+    <link name="${ns}/NAUO6_link">
+        <inertial>
+        <origin xyz=" -0.835 -0.001 -1.235" rpy="0 0 0" />
+        <mass value="0.271689442075899" />
+        <inertia
+            ixx="0.000551467943673248"
+            ixy="-3.54874087127204E-06"
+            ixz="-1.62511816944923E-05"
+            iyy="0.000400129321443915"
+            iyz="-2.07321385851125E-06"
+            izz="0.000582594592679587" />
+        </inertial>
+        <visual>
+        <origin xyz=" -0.835 -0.001 -1.235" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/visual/NAUO6_visual.stl" scale="0.001 0.001 0.001"/>     
+        </geometry>
+        <material name="">
+            <color rgba="0.6 0.6 0.6 1" />
+        </material>
+        </visual>
+        <collision>
+        <origin xyz="-0.835 -0.001 -1.235" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/collision/NAUO6_collision.stl" scale="0.001 0.001 0.001"/>
+        </geometry>
+        </collision>
+    </link>
+
+    <joint name="${ns}/joint_NAUO7" type="revolute">
+        <parent link="${ns}/NAUO6_link"/>
+        <child link="${ns}/NAUO7_link" />
+        <origin xyz="0.0937 0 0" rpy = "0 0 0"/>
+        <axis xyz="-1 0 0" />
+        <limit lower="-6.1" upper="6.1" effort="10" velocity="17.45" />
+    </joint>
+    
+    <link name="${ns}/NAUO7_link">
+        <inertial>
+        <origin xyz="-0.9287 -0.001 -1.235" rpy="0 0 0" />
+        <mass value="0.271689442075899" />
+        <inertia
+            ixx="0.000551467943673248"
+            ixy="-3.54874087127204E-06"
+            ixz="-1.62511816944923E-05"
+            iyy="0.000400129321443915"
+            iyz="-2.07321385851125E-06"
+            izz="0.000582594592679587" />
+        </inertial>
+        <visual>
+        <origin xyz="-0.9287 -0.001 -1.235" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/visual/NAUO7_visual.stl" scale="0.001 0.001 0.001"/>
+            
+        </geometry>
+        <material name="">
+            <color rgba="0.05 0.05 0.05 1" />
+            
+        </material>
+        </visual>
+        <collision>
+        <origin xyz="-0.9287 -0.001 -1.235" rpy="0 0 0" />
+        <geometry>
+            <mesh filename="package://${package_name}/meshes/welding_arm/collision/NAUO7_collision.stl" scale="0.001 0.001 0.001"/>
+            
+        </geometry>
+        </collision>
+    </link>
+
+
+    <gazebo>
+        
+
+        <plugin
+        filename="gz-sim-joint-state-publisher-system"
+        name="gz::sim::systems::JointStatePublisher">
+        </plugin>
+
+    </gazebo>
+
+  </xacro:macro>
+
+</robot>
