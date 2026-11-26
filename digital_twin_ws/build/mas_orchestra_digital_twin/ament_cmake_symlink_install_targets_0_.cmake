@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/build/mas_orchestra_digital_twin/tf_broadcaster" "TARGETS" "tf_broadcaster" "DESTINATION" "lib/mas_orchestra_digital_twin")

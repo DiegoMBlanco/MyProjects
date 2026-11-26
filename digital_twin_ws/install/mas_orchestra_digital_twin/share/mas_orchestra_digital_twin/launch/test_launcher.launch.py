@@ -1,1 +1,0 @@
-/home/dieguin/MAS-ORCHESTRA/digital_twin_ws/src/mas_orchestra_digital_twin/launch/test_launcher.launch.py
